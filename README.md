@@ -38,7 +38,7 @@ pipeline
             {
                 steps
                 {
-                    sh 'scp /var/lib/jenkins/workspace/D-pipeline1/webapp/target/webapp.war ubuntu@18.227.111.133:/var/lib/tomcat10/webapps/testapp.war'
+                    sh 'scp /var/lib/jenkins/workspace/D-pipeline1/webapp/target/webapp.war ubuntu@3.21.44.159:/var/lib/tomcat10/webapps/prodapp.war'
                 }
             }
         }
